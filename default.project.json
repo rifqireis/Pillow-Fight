@@ -1,0 +1,60 @@
+{
+  "name": "PillowFight",
+  "globIgnorePaths": ["**/*.spec.luau"],
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedFirst": {
+      "$className": "ReplicatedFirst",
+      "$path": "src/ReplicatedFirst",
+      "$ignoreUnknownInstances": true
+    },
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "src/ReplicatedStorage",
+      "$ignoreUnknownInstances": true
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "GameSystems": {
+        "$path": "src/ServerScriptService/GameSystems"
+      },
+      "$ignoreUnknownInstances": true
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$path": "src/ServerStorage",
+      "$ignoreUnknownInstances": true
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
+      },
+      "$ignoreUnknownInstances": true
+    },
+
+    "StarterPack": {
+      "$className": "StarterPack",
+      "$path": "src/StarterPack",
+      "$ignoreUnknownInstances": true
+    },
+
+    "Workspace": {
+      "$className": "Workspace",
+      "$ignoreUnknownInstances": true,
+      "Leaderboard": {
+        "$path": "src/Workspace/Leaderboard"
+      }
+    }
+  }
+}

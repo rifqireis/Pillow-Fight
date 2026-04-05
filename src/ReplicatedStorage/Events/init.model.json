@@ -1,0 +1,17 @@
+{
+  "className": "Folder",
+  "children": [
+    {
+      "name": "ShowHealthBarEvent",
+      "className": "RemoteEvent"
+    },
+    {
+      "name": "HitEvent",
+      "className": "RemoteEvent"
+    },
+    {
+      "name": "ReturnTeleportFunc",
+      "className": "RemoteFunction"
+    }
+  ]
+}

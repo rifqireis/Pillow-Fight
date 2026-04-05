@@ -1,0 +1,26 @@
+# Place files (generated via rojo build)
+*.rbxl
+*.rbxlx
+
+# Lock files
+*.rbxlx.lock
+*.rbxl.lock
+
+# Rojo sourcemap
+sourcemap.json
+
+# Wally packages (regenerated from wally.toml)
+/Packages/
+
+# Studio backup (raw export, not source of truth)
+/studio-backup/
+
+# VS Code extensions
+*.vsix
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
