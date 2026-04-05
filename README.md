@@ -17,9 +17,9 @@ aftman install
 wally install
 
 # 3. Build the place file
-rojo build -o "PillowFight.rbxlx"
+rojo build -o "Pillow-Fight.rbxlx"
 
-# 4. Open PillowFight.rbxlx in Studio, then start the sync server
+# 4. Open Pillow-Fight.rbxlx in Studio, then start the sync server
 rojo serve
 ```
 
@@ -68,7 +68,7 @@ stylua src/
 selene src/
 
 # Build place file
-rojo build -o "PillowFight.rbxlx"
+rojo build -o "Pillow-Fight.rbxlx"
 ```
 
 ## Manual Exports from Studio
